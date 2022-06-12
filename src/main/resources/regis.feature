@@ -7,7 +7,10 @@ Feature: feature to test login functionality
     Then user redirect ke halaman login
     Examples:
       | firstname | email | password |
-      | nola      | nola@gmail.com| abcdefghijk |
-      | Theofani  | fani@gmail.com | 123456789  |
+      | nola      | nola@gmail.com| abcde123 |
+      | Theofani  | fani@gmail.com | abf123456789367  |
+      | Theofani  | fani@gmail.com |  |
+      | Theofani  |  | abf123456789367  |
+
 
 

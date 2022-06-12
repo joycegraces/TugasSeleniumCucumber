@@ -19,7 +19,7 @@ public class registrasi {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Step Browser Dibuka");
         System.setProperty("webdriver.chrome.driver", "src/main/resources/webdriver/chromedriver.exe");
-                ///Objects.requireNonNull(getClass().getClassLoader().getResource("webdriver/chromedriver.exe")).getFile());
+        ///Objects.requireNonNull(getClass().getClassLoader().getResource("webdriver/chromedriver.exe")).getFile());
         chromeDriver = new ChromeDriver();
         chromeDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         chromeDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
